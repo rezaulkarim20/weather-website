@@ -5,10 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wethear website</title>
     <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1 class="font-bold text-center text-green-800 text-3xl bg-blue-600">
-      welcome to our website
-    </h1>
+    <section
+      class="bg-cover w-full h-dvh bg-no-repeat bg-center"
+      style="background-image: url(./images/cabin-924958_1280.jpg)"
+    >
+      <!--top menu-->
+      <div
+        class="flex flex-col md:flex-row justify-between items-center mx-auto container p-4"
+      >
+        <div class="flex items-center gap-3">
+          <img class="w-6 h-8" src="./images/clouds-5340778_1280.png" alt="" />
+          <div class="capitalize">
+            <p class="text-white font-semibold">
+              <span class="text-sky-600 font-semibold">w</span>eather
+            </p>
+            <p class="text-white font-semibold">
+              dashbor<span class="text-sky-600">d</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center">
+          <input
+            class="border border-none px-8 py-2 rounded -mr-10 capitalize bg-black opacity-40"
+            type="text"
+            placeholder="serace location "
+          />
+          <span
+            ><img class="w-6 h-6" src="./images/search 1.png" alt=""
+          /></span>
+        </div>
+      </div>
+      <!--end-->
+      <!--cart start-->
+      <div
+        class="flex justify-center space-x-10 items-center mx-auto w-full md:w-3/6 bg-black opacity-45 px-12 py-24 rounded-lg flex-col md:flex-row mt-4"
+      >
+        <!--chaild -1-->
+        <div class="w-full text-white">
+          <i class="fa-solid fa-cloud-sun-rain"></i>
+          <p class="font-semibold text-6xl relative">25<sup>o</sup></p>
+
+          <div class="mt-3">
+            <span>
+              <i class="fa-solid fa-location-dot"></i> 9:15 AM-Friday,july-20,
+              2024</span
+            >
+          </div>
+        </div>
+        <!--chaild-1 end-->
+
+        <!--chaild-2 start-->
+        <div class="flex justify-between items-center gap-3 w-full mx-auto">
+          <div class="w-full">
+            <h1 class="text-white uppercase font-bold text-2xl">
+              the climet is mist
+            </h1>
+            <div
+              class="flex justify-between items-center text-white capitalize mb-4 mt-4"
+            >
+              <div class="">
+                <p class="text-xl">temp mex</p>
+              </div>
+              <div>
+                <p class="text-xl">
+                  25.93<sup>o</sup> <i class="fa-solid fa-temperature-half"></i>
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex justify-between items-center text-white capitalize mt-4"
+            >
+              <div class="">
+                <p class="text-xl">temp min</p>
+              </div>
+              <div class="flex">
+                <p class="text-xl">
+                  27.07<sup>o</sup> <i class="fa-solid fa-temperature-half"></i>
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex justify-between items-center text-white capitalize mt-4"
+            >
+              <div class="">
+                <p class="text-xl">humadity</p>
+              </div>
+              <div class="flex">
+                <p class="text-xl">
+                  51%<sup>o</sup> <i class="fa-solid fa-droplet"></i>
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex justify-between items-center text-white capitalize mt-4"
+            >
+              <div class="">
+                <p class="text-xl">cloudy</p>
+              </div>
+              <div class="flex">
+                <p class="text-xl">
+                  2%<sup>o</sup> <i class="fa-solid fa-cloud-rain"></i>
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex justify-between items-center text-white capitalize mt-4"
+            >
+              <div>
+                <p class="text-xls">wind</p>
+              </div>
+              <div class="flex">
+                <p class="text-xl">
+                  3.6km/h<sup>o</sup>  <i class="fa-solid fa-wind"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--chaild-2 end-->
+      </div>
+      <!--cart end-->
+    </section>
   </body>
 </html>
